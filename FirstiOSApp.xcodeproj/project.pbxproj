@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB3E7D17216CE8F50056F9B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E7D16216CE8F50056F9B7 /* AppDelegate.swift */; };
-		FB3E7D19216CE8F50056F9B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E7D18216CE8F50056F9B7 /* ViewController.swift */; };
+		FB3E7D19216CE8F50056F9B7 /* ColorChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3E7D18216CE8F50056F9B7 /* ColorChangeViewController.swift */; };
 		FB3E7D1C216CE8F50056F9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3E7D1A216CE8F50056F9B7 /* Main.storyboard */; };
 		FB3E7D1E216CE8F70056F9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3E7D1D216CE8F70056F9B7 /* Assets.xcassets */; };
 		FB3E7D21216CE8F70056F9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3E7D1F216CE8F70056F9B7 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		FB3E7D13216CE8F50056F9B7 /* FirstiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3E7D16216CE8F50056F9B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB3E7D18216CE8F50056F9B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB3E7D18216CE8F50056F9B7 /* ColorChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeViewController.swift; sourceTree = "<group>"; };
 		FB3E7D1B216CE8F50056F9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB3E7D1D216CE8F70056F9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB3E7D20216CE8F70056F9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,9 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				FB3E7D28216CEC8A0056F9B7 /* Resources */,
-				FB3E7D18216CE8F50056F9B7 /* ViewController.swift */,
-				FB3E7D1A216CE8F50056F9B7 /* Main.storyboard */,
-				FB3E7D1F216CE8F70056F9B7 /* LaunchScreen.storyboard */,
+				FB3E7D2A216CF0B90056F9B7 /* Controller */,
+				FB3E7D29216CF0A10056F9B7 /* View */,
 			);
 			path = FirstiOSApp;
 			sourceTree = "<group>";
@@ -70,6 +69,23 @@
 				FB3E7D22216CE8F70056F9B7 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB3E7D29216CF0A10056F9B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB3E7D1A216CE8F50056F9B7 /* Main.storyboard */,
+				FB3E7D1F216CE8F70056F9B7 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB3E7D2A216CF0B90056F9B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB3E7D18216CE8F50056F9B7 /* ColorChangeViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3E7D19216CE8F50056F9B7 /* ViewController.swift in Sources */,
+				FB3E7D19216CE8F50056F9B7 /* ColorChangeViewController.swift in Sources */,
 				FB3E7D17216CE8F50056F9B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
